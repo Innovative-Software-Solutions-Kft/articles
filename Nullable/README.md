@@ -62,6 +62,7 @@ Csakhogy nem azon az alapon, hogy láncvégi, hiszen minden negációt be lehet 
 ```
 
 Tehát a „null conditional operator” láncunk mindig jól fog működni, amíg pozitív reláció (ami tehát nem egy alap reláció negáltja) áll a lánc végi ellenőrző feltételben.
+
 Ide köthető még két másik null vonatkozású operátor ?? és ??= melyek kényelmi egyszerűsítések, 
 
 ```cs
@@ -71,7 +72,7 @@ var1 ?? var2
 megfelel a következőnek:
 
 ```cs
-var1 ? var1 : var2
+( var1 is null) ? var1 : var2
 ```
 
 és 
