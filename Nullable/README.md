@@ -1,3 +1,4 @@
+
 # Nullable Gondolatok és Csapdák
 
 Az én asztalomnál kezdődött (mint kiderült, ott is ért véget) a Coding Dojo-nak indult péntek délutáni szeánsz, ahol be kellett mutatnom egy innovatív eljárást egy mérnöki szoftverhez írt plugin tesztelésére, aminek a nehézségét az jelenti, hogy futó host nélkül mindent mock-olni kell valamiképpen, és a teszt kód maga tulajdonképpen adatok becsomagolása (mock) és adatok kicsomagolása (test) egységekből áll.
